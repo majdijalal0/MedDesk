@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Public Sans', 'Inter', sans-serif;     
+  --font-display: 'Space Grotesk', 'Archivo', sans-serif; 
+  --font-mono: 'IBM Plex Mono', monospace
+
+  --color-ink:   #1E2B29; 
+  --color-paper: #F4F6F5; 
+  --color-teal:  #2F6F62;  
+  --color-amber: #C77D2E;  
+  --color-red:   #C1443C;  
+  --color-gray:  #8B8D89;  
+}
+
+@layer base {
+  body {
+    @apply bg-paper min-h-screen;
+  }
+}
